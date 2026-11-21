@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Temporary deny-all baseline. Replace with tested authenticated rules
+    // before connecting the app or storing real guardian information.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
