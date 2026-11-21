@@ -1,0 +1,4 @@
+Place the google-services.json downloaded from Firebase in this folder,
+renaming it to exactly: google-services.json
+
+Do not upload this file to a public repository. It can contain project identifiers.
